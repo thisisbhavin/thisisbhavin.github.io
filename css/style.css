@@ -7542,8 +7542,7 @@ header {
         height: 50px;
         position: absolute;
         top: 0;
-        left: 0;
-        border-radius: 50%; }
+        left: 0; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
         text-decoration: none !important; }
       header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
@@ -8783,4 +8782,5 @@ textarea.form-control {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }
+    stroke-dashoffset: -136px; } }\
+    
