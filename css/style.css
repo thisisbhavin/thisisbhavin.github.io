@@ -41,6 +41,7 @@
   box-sizing: border-box; }
 
 html {
+  height: 100%;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -55,6 +56,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block; }
 
 body {
+  height: 100%;
   margin: 0;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1rem;
@@ -66,6 +68,19 @@ body {
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
+
+.parallax {
+  /* The image used */
+  background-image: url('../images/parallex.jpg');
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
 
 hr {
   -webkit-box-sizing: content-box;
