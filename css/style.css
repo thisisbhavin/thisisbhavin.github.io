@@ -7938,6 +7938,10 @@ header {
   .exp-wrap .year {
     width: 150px; }
 
+.exp-wrap .desc_resume_name {
+  width: 100%;
+}
+
 .progress-wrap {
   margin-bottom: 30px; }
   .progress-wrap h4 {
@@ -8534,6 +8538,39 @@ textarea.form-control {
   background-repeat: no-repeat; }
   @media (max-width: 767.98px) {
     .block-3 .image {
+      height: 300px; } }
+
+
+.block-3-resume .image-resume {
+  width: 100%;
+  padding: 10% 7%; }
+  @media (min-width: 768px) {
+    .block-3-resume .image-resume {
+      width: 40%;
+      padding: 10% 7%; } }
+
+.block-3-resume .text-resume {
+  width: 100%;
+  padding: 10% 7%; }
+  @media (min-width: 768px) {
+    .block-3-resume .text-resume {
+      width: 60%;
+      padding: 10% 7%; } }
+
+.block-3-resume .text-resume .heading-resume {
+  font-size: 25px;
+  margin-bottom: 30px; }
+  .block-3-resume .text-resume .heading-resume a {
+    color: #fff; }
+
+.block-3-resume .text-resume p:last-child {
+  margin-bottom: 0; }
+
+.block-3-resume .image-resume {
+  background-position: center center;
+  background-repeat: no-repeat; }
+  @media (max-width: 767.98px) {
+    .block-3-resume .image-resume {
       height: 300px; } }
 
 .custom-pagination {
