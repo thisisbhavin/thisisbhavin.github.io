@@ -146,7 +146,8 @@ a {
   -webkit-text-decoration-skip: objects; }
   a:hover {
     color: #35e78e;
-    text-decoration: underline; }
+    text-decoration: underline; 
+    cursor: pointer;}
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -8752,6 +8753,81 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+
+/* Accordion */
+
+.accordion {
+  background-color: #121212;
+  color: inherit;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #121212;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* end accordion */
+
+/* 
+
+/* Popup Box */
+
+/* The Modal (background) */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: auto; /* Stay in place */
+  z-index: 8888; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #121212;
+  margin: 10vh auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 95%; /* Could be more or less, depending on screen size */
+}
+@media (min-width: 768px) {
+.modal-content {
+  background-color: #121212;
+  margin: 10vh auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+  }
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;  
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(46, 46, 46);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* end pop up */ 
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -8782,5 +8858,5 @@ textarea.form-control {
     stroke-dashoffset: -35px; }
   100% {
     stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px; } }\
+    stroke-dashoffset: -136px; } }
     
